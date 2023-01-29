@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="css/styles5.css">
+    <script src= "test1.js" defer></script>
+    <title>Synergetic Meds databank</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <H1>Welcolme to the Synergetic Meds databank</H1>
+        <div class="search-medicine">
+            <p>
+                Please Search Medicines
+             <input type="search" id="search" data-search_med>
+            <input id="click" type="button" value="Search!" onclick="doFunction();" /> 
+            </p>
+            
+        </div>
+   
+   
+    <div class="search-wrapper">
+      <p>
+        Scope Through Medication
+        <input type="search" id="search" data-search>
+        
+        </p>
+       
+    </div>
+    <div class="Title-card">
+        <div class="number repalce" data-num></div>
+    </div>
+    <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template> 
+    <div class = "card">
+        <div class="Perscription1" data-md></div>
+        <div class="Perscription2" data-mdr></div>
+        <div class="Severity" data-severity>
+            <label for="search"></label>
+        </div>
+        <div class="Description" data-description></div>
+    </div>
+ </template>
+</body>
+</html>
